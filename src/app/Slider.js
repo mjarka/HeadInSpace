@@ -9,18 +9,20 @@ export default function Slider({
   step = 0.01,
 }) {
   return (
-    <>
+    <div className="flex items-center space-x-4">
+      {" "}
+      {/* Flex container with horizontal spacing */}
+      <p className="shrink-0">{description}</p>{" "}
+      {/* Prevent the text from shrinking */}
       <input
         type="range"
         min={min}
-        description={description}
         max={max}
         step={step}
         value={value}
         onChange={onChange}
         className="w-full cursor-pointer"
       />
-      <p>{description}</p>
-    </>
+    </div>
   );
 }
