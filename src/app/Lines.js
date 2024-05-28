@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function Lines(props) {
-  const { nodes, materials } = useGLTF("/lines.glb");
+  const { nodes, materials } = useGLTF("LoomisHead/lines.glb");
   return (
     <group {...props} dispose={null}>
       <mesh
