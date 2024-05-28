@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF("LoomisHead/head.glb");
+  const { nodes, materials } = useGLTF("/LoomisHead/head.glb");
 
   return (
     <group {...props} scale={1.3} dispose={null}>
@@ -17,4 +17,4 @@ export function Model(props) {
   );
 }
 
-useGLTF.preload("LoomisHead/head.glb");
+useGLTF.preload("/LoomisHead/head.glb");
