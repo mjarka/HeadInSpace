@@ -42,4 +42,4 @@ export function Lines(props) {
   );
 }
 
-useGLTF.preload("./lines.glb");
+useGLTF.preload("LoomisHead/lines.glb");

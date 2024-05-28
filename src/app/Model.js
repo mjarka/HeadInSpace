@@ -17,4 +17,4 @@ export function Model(props) {
   );
 }
 
-useGLTF.preload("./head.glb");
+useGLTF.preload("LoomisHead/head.glb");
