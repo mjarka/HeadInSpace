@@ -153,6 +153,24 @@ export default function Home() {
           </Suspense>
         </Canvas>
       </div>
+      <div className="absolute bottom-0 w-full text-center p-4">
+        <div>
+          <a
+            href="mailto:marcinjarka@gmail.com"
+            className="text-white text-xs opacity-50"
+          >
+            Website made by Marcin Jarka
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://sketchfab.com/cgmonkey"
+            className="text-white text-xs opacity-50"
+          >
+            Model made by cgmonkey
+          </a>
+        </div>
+      </div>
     </main>
   );
 }
