@@ -93,7 +93,7 @@ export default function Home() {
   // 5 / (2 * Math.tan((fov * Math.PI) / 180 / 2)),
   // 10 / (2 * Math.tan((fov * Math.PI) / 180 / 2)),
   return (
-    <main className="flex flex-col items-center justify-between bg-zinc-600">
+    <main className="flex flex-col items-center justify-between  bg-gradient-radial from-gray-600 via-gray-700 to-gray-800">
       <div className="w-full h-screen">
         <div className="p-8 absolute w-full  z-10 ">
           <button
