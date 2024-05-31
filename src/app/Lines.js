@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function Lines(props) {
-  const { nodes, materials } = useGLTF("/HeadInSpace/lines.glb");
+  const { nodes, materials } = useGLTF("/headinspace/lines.glb");
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -42,4 +42,4 @@ export function Lines(props) {
   );
 }
 
-useGLTF.preload("/HeadInSpace/lines.glb");
+useGLTF.preload("/headinspace/lines.glb");
